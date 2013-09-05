@@ -1,0 +1,174 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_TITLE               "Визуализация мат. функций"
+    IDS_ABOUT               "Курсовой проект\nст. гр. КИ-08-3 \nЗагнойко Д.Е."
+    IDS_BTN_BUILD           "Построить"
+    IDS_GRP_FORMULA         "Выражение"
+    IDS_GRP_COORD           "Значения функции"
+    IDS_SAVE                "Сохранить"
+    IDS_ZOOM_IN             "Увеличить"
+    IDS_ZOOM_OUT            "Уменьшить"
+    IDS_ABOUT_TTT           "О программе..."
+    IDS_EXIT_TTL            "Выход..."
+    IDS_EXIT_TXT            "Сохранить график?"
+    IDS_ERROR               "Ошибка"
+    IDS_ERROR_TXT           "Проверьте правильность введенной формулы! "
+END
+
+#endif    // Русский resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_START_MENU MENU
+BEGIN
+    POPUP "&Файл"
+    BEGIN
+        MENUITEM "&Сохранить",                  IDM_FILE_SAVE
+        MENUITEM "&Выход",                      IDM_FILE_EXIT
+    END
+    POPUP "&Помощь"
+    BEGIN
+        MENUITEM "&О программе...",             IDM_ABOUT
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON                    "Graph5a.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCEL ACCELERATORS
+BEGIN
+    "X",            IDA_EXIT,               VIRTKEY, CONTROL, NOINVERT
+    "S",            IDA_SAVE,               VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TOOLBAR             BITMAP                  "toolbar1.bmp"
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Английский resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_TITLE               "Math func visualisation"
+    IDS_ABOUT               "Student work \nst. grp. KI-08-3 \nZagnoyko D.E."
+    IDS_BTN_BUILD           "Build"
+    IDS_GRP_FORMULA         "Expression"
+    IDS_GRP_COORD           "Func value"
+    IDS_SAVE                "Save"
+    IDS_ZOOM_IN             "Zoom in"
+    IDS_ZOOM_OUT            "Zoom out"
+    IDS_ABOUT_TTT           "About..."
+    IDS_EXIT_TTL            "Exit"
+    IDS_EXIT_TXT            "Save image?"
+    IDS_ERROR               "Error"
+    IDS_ERROR_TXT           "Check correction of formula! "
+END
+
+#endif    // Английский resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
