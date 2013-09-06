@@ -1,7 +1,7 @@
-PROJECT NAME: Math visualizer
 AUTHOR:       Zagnoyko Dmitry (hiroshidi@gmail.com)
 LICENCE:      GPLv3
 TOOLS:        MS VS C++ 2010
+PROJECT NAME: Math visualizer
 ================================================================================
 BUILD: 
 To build project, open math_visualizer.sln in MS VS C++ 2010 or later and do 
