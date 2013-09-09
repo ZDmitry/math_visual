@@ -13,6 +13,7 @@
 *.aps
 *.ncb
 *.suo
+*.sdf
 *.tmp
 *.user
 *.tlog
