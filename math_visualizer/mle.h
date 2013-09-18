@@ -19,9 +19,9 @@
     02110-1301  USA.
 */
 
-////////////////
-//  mle.h     //
-////////////////
+///////////////////////////////////////////////
+////////	Math Analys and Build Func
+///////////////////////////////////////////////
 
 #include <windows.h>
 #include <iostream>
@@ -40,7 +40,7 @@ typedef struct tagDWPOINT
 class MathDraw
 {
 public:
-	void freeMemory();
+	void freeMemory(); 
 	static MathDraw& instance(){ 
       if (mle_ == nullptr) mle_ = new MathDraw();
 	  return *mle_;

@@ -25,10 +25,6 @@
 MathDraw* MathDraw::mle_ = nullptr;
 const float MathDraw::ACCURACY  = 0.005f;
 
-///////////////////////////////////////////////
-////////	Math Analys and Build Func
-///////////////////////////////////////////////
-
 // Init members
 MathDraw::MathDraw()
 {

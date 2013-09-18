@@ -297,7 +297,8 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 					if (GetSaveFileName(&of))
 					{
 						// save image
-						BitmapCapture::instance().saveToFile(szFileName,hClntWnd);
+						BitmapCapture bmp;
+						bmp.saveToFile(szFileName,hClntWnd);
 					}
 					break;
 				case IDTB_4:
@@ -419,7 +420,8 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 					 case IDYES:
 						 if (GetSaveFileName(&of))
  						 {
-							BitmapCapture::instance().saveToFile(szFileName,hClntWnd);
+								BitmapCapture bmp;
+								bmp.saveToFile(szFileName,hClntWnd);
 						 }
 						 DestroyWindow(hwnd);
 						 break;
@@ -433,8 +435,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 			}
 			break;
 		// terminate app / free memory
-		case WM_DESTROY :  
-			BitmapCapture::instance().freeMemory();
+		case WM_DESTROY :
 			MathDraw::instance().freeMemory();
 			PostQuitMessage(0); 
 			return 0; 

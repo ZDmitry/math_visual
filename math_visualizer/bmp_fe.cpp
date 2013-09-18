@@ -24,8 +24,6 @@
 ////////////////////////////////////////////////////////
 #include "bmp_fe.h"
 
-BitmapCapture* BitmapCapture::bmp_ = nullptr;
-
 HBITMAP BitmapCapture::createBitmap(HWND hSrc) 
 {
 	RECT rc;
