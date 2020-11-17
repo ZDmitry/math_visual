@@ -1,6 +1,6 @@
 PROJECT NAME: Math visualizer
 ================================================================================
-- AUTHOR:  Zagnoyko Dmitry (hiroshidi@gmail.com)
+- AUTHOR:  Zagnoyko Dmitry ( zagnoyko.dmitry@gmail.com )
 - LICENCE: GPLv3
 - L18n:    EN
 - TOOLS:   MS VS C++ 2010 Express
